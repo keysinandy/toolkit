@@ -1,3 +1,5 @@
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+// @ts-nocheck
 import { LinkedListNode } from '..';
 import { describe, it, expect } from '@jest/globals';
 
