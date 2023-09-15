@@ -3,3 +3,5 @@
 ## Data Structures
 
 ### Linked List
+
+### Double Linked List
