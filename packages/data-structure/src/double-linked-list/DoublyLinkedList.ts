@@ -107,7 +107,7 @@ export class DoublyLinkedList<T> {
     }
   }
 
-  toString(callback?: (val: T) => string) {
+  toString(callback?: ToStringCallback<T>) {
     return this.toArray()
       .map((node) => node.toString(callback))
       .join(',');

@@ -8,7 +8,7 @@ export class DoublyLinkedListNode<T> {
     this.prev = prev ?? null;
   }
 
-  toString(callback?: (val: T) => string) {
+  toString(callback?: ToStringCallback<T>) {
     return typeof callback === 'function' ? callback(this.value) : `${this.value}`;
   }
 }
